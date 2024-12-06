@@ -1,6 +1,6 @@
 # Color Mood Changer
 
-**Color Modd Changer** is an Interactive web app that allow users to change the background color of the
+**Color Mode Changer** is an Interactive web app that allow users to change the background color of the
 webpage by simple clicking on one of the color. When the color is change, the app provide information
 about the selected color.
 "I had a great experience applying hands-on practice with DOM manipulation, such as querying elements, handling events, and updating content and styles based on user interaction."
