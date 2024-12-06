@@ -29,6 +29,8 @@ for (let color of colors){
                     clrHeading.innerText = "Blue";
                     clrInfo.innerHTML = "<strong>Blue</strong> is associated with calmness, stability, and trust. It represents wisdom, serenity, and reliability, often evoking a sense of peace and harmony."
                     break;
+            default :
+            console.log("Invalid value");
         }
     })
 }
