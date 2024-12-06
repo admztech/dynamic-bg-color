@@ -3,10 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lekton:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Dynamic Background Color</title>
+    <title>Color Mood Changer</title>
   </head>
   <body>
+    <main>
+      <h1>Color Scheme Switcher</h1>
+      <section>
+        <span class="color" id="grey"></span>
+        <span class="color" id="yellow"></span>
+        <span class="color" id="green"></span>
+        <span class="color" id="blue"></span>
+      </section>
+      <section class="infor">
+        <h3 id="clrHeading"></h3>
+        <p id="clrInfo"></p>
+      </section>
+      <p class="instraction">
+        Try to click on one of the colors to change the backgroung color for
+        this page.
+      </p>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>

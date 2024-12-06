@@ -1,0 +1,57 @@
+body{
+   
+    font-family:"Lekton", monospace;
+    display: grid;
+    place-items: center;
+
+}
+main{
+    width: 80%;
+    text-align: center;
+}
+.color{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid rgb(41, 41, 37);
+}
+#grey{
+    background-color: grey;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+.instraction{
+font-size: 18px;
+font-weight: 600;
+}
+
+#clrHeading,
+#clrInfo {
+    display: none; /* Hide them by default */
+}
+
+#clrHeading{
+    display: inline-block;
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    margin: 0;
+
+}
+#clrInfo{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    display: none;
+}
